@@ -91,6 +91,7 @@ public class ContaBanco {
             System.out.println("Conta em débito, não posso fechar!");
         } else{
            this.setStatus(false);
+            System.out.println("Conta fechada com sucesso!");
         }
     }
 
